@@ -94,6 +94,39 @@ body{
     }
     
 }
+
+
+.star-icon{
+    background-color: #fff;
+    position: relative;
+    top:-233px;
+    left:15px;
+    width:70px;
+    border-radius: 25px;
+    text-align: center;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    font-weight: 700;
+    i{
+    color:#FF5400;
+    }
+}
+
+.price {
+    background-color: #FF5400;
+    height: 80px;
+    width: 80px;
+    position: relative;
+    top: -72px;
+    left: 298px;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 80px;
+    border-radius: 360px;
+    text-align: center;
+    color: #fff;
+}
 .content-area{
     background-color: #E5E5E5;
     height: 272px;

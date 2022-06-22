@@ -105,20 +105,29 @@ body {
   text-align: center;
   border-radius: 5px 5px;
   background-color: transparent;
+  color: aliceblue;
+}
+
+.right-search select option {
+  color: black;
+}
+
+.icon-box {
+  position: relative;
 }
 
 .star-icon {
+  position: absolute;
   background-color: #fff;
-  position: relative;
-  top: -233px;
-  left: 15px;
-  width: 70px;
+  width: 90px;
+  height: 40px;
+  line-height: 40px;
   border-radius: 25px;
   text-align: center;
   display: inline-block;
-  height: 30px;
-  line-height: 30px;
   font-weight: 700;
+  top: -230px;
+  left: 15px;
 }
 
 .star-icon i {
@@ -129,15 +138,19 @@ body {
   background-color: #FF5400;
   height: 80px;
   width: 80px;
-  position: relative;
-  top: -72px;
-  left: 298px;
+  position: absolute;
   font-size: 28px;
   font-weight: 700;
   line-height: 80px;
   border-radius: 360px;
   text-align: center;
   color: #fff;
+  right: 15px;
+  bottom: -46px;
+}
+
+.content-box {
+  padding: 50px 50px;
 }
 
 .content-area {

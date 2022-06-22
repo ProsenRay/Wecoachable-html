@@ -58,6 +58,7 @@ body{
     color: #FFFFFF;
     text-decoration: none; 
     
+    
     }
 }
 .main-manu-search{
@@ -84,6 +85,7 @@ body{
     flex-basis:100%;
 }
 .right-search{
+  
     select{
     height: 71px;
     width: 304px;
@@ -91,42 +93,52 @@ body{
     text-align:center;
     border-radius: 5px 5px;
     background-color: transparent;
+    color: aliceblue;
+    option{
+        color: black;
     }
-    
-}
-
-
-.star-icon{
-    background-color: #fff;
-    position: relative;
-    top:-233px;
-    left:15px;
-    width:70px;
-    border-radius: 25px;
-    text-align: center;
-    display: inline-block;
-    height: 30px;
-    line-height: 30px;
-    font-weight: 700;
-    i{
-    color:#FF5400;
     }
 }
 
-.price {
-    background-color: #FF5400;
-    height: 80px;
-    width: 80px;
+.icon-box{
     position: relative;
-    top: -72px;
-    left: 298px;
-    font-size: 28px;
-    font-weight: 700;
-    line-height: 80px;
-    border-radius: 360px;
-    text-align: center;
-    color: #fff;
 }
+    .star-icon{
+        position: absolute;
+        background-color: #fff;
+        width:90px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 25px;
+        text-align: center;
+        display: inline-block;
+        font-weight: 700;
+        top: -230px;
+        left: 15px;
+      
+        i{
+        color:#FF5400;
+        }
+    }
+
+    .price {
+        background-color: #FF5400;
+        height: 80px;
+        width: 80px;
+        position: absolute;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 80px;
+        border-radius: 360px;
+        text-align: center;
+        color: #fff;
+       right: 15px;
+       bottom: -46px;
+    }
+.content-box{
+    padding : 50px 50px;
+}
+
 .content-area{
     background-color: #E5E5E5;
     height: 272px;

@@ -112,6 +112,10 @@ body {
   color: black;
 }
 
+.tab-area {
+  padding: 100px 0 0 60px;
+}
+
 .icon-box {
   position: relative;
 }
@@ -214,5 +218,9 @@ body {
   font-size: 16px;
   font-weight: 300;
   line-height: 25px;
+}
+
+.footer-area {
+  background-image: url(..//images/footer-bg-img.jpg);
 }
 /*# sourceMappingURL=style.css.map */

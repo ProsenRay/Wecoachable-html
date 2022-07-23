@@ -283,6 +283,9 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px;
+    & img{
+        width: 102%;
+    }
     .learning-area-left{
         padding:75px 90px 75px 60px;
         h1{

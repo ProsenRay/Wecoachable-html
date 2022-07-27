@@ -319,7 +319,7 @@ body {
 }
 
 .learning-area img {
-  width: 102%;
+  width: 100%;
 }
 
 .learning-area .learning-area-left {
@@ -402,6 +402,28 @@ body {
   font-size: 16px;
   font-weight: 300;
   line-height: 25px;
+}
+
+.promo-tab .nav {
+  gap: 24px;
+}
+
+.promo-tab .nav .nav-item .nav-link {
+  border-radius: 5px;
+  padding: 16px 40px;
+  background-color: #E5E5E5;
+  color: black;
+  font-size: 18px;
+}
+
+.promo-tab .nav .nav-item .nav-link:hover {
+  background-color: #013183;
+  color: #fff;
+}
+
+.promo-tab .nav .nav-item .nav-link.active {
+  background-color: #013183;
+  color: #fff;
 }
 
 .footer-area {

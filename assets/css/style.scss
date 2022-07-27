@@ -7,7 +7,6 @@
     margin: 0 auto;
 }
 
-
 ul,ol{
     margin: 0 !important;
     padding: 0 !important;
@@ -284,7 +283,7 @@ body{
     background-size: cover;
     border-radius: 10px;
     & img{
-        width: 102%;
+        width: 100%;
     }
     .learning-area-left{
         padding:75px 90px 75px 60px;
@@ -360,6 +359,35 @@ body{
         line-height:25px;
     }
 }
+//promo-tab start
+.promo-tab{
+    
+    .nav{
+        gap: 24px;
+    .nav-item{
+
+        .nav-link{
+            border-radius: 5px;
+            padding: 16px 40px;
+            background-color: #E5E5E5;
+            color:black;
+            font-size: 18px;
+            &:hover{
+                background-color: #013183;
+                color: #fff;
+            }
+            &.active{
+                background-color: #013183;
+                color: #fff;
+            }
+
+        }
+        
+    }
+}
+}
+
+//promo-tab End
 
 //footer-area-start
 .footer-area{

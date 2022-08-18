@@ -126,16 +126,36 @@ body {
 .search-left select {
   height: 72px;
   width: 151px;
-  text-align: center;
+  text-align: left;
   border-radius: 5px 0 0 5px;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  text-decoration: none;
+  padding-left: 10px;
 }
 
-.search-left input {
+.search-left a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+
+.search-left a input {
   height: 72px;
   width: 100%;
   background-color: #FFFFFF;
   opacity: 40%;
   border-radius: 0 5px 5px 0;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  text-decoration: none;
+  padding-left: 10px;
 }
 
 .search-input {

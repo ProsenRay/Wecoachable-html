@@ -177,10 +177,6 @@ body {
   color: black;
 }
 
-.tab-area {
-  padding: 100px 0 0 60px;
-}
-
 .icon-box {
   position: relative;
 }
@@ -218,10 +214,6 @@ body {
   bottom: -46px;
 }
 
-.content-box {
-  padding: 50px 50px;
-}
-
 .content-area {
   background-color: #E5E5E5;
   height: 272px;
@@ -231,8 +223,9 @@ body {
 
 .content-area:hover {
   background-color: #FFFFFF;
-  border: 1px solid;
   border-radius: 0 0 10px 10px;
+  -webkit-transition: .5s;
+  transition: .5s;
 }
 
 .content-area span {
@@ -361,7 +354,6 @@ body {
 
 .yoga-content-area:hover {
   background-color: #FFFFFF;
-  border: 1px solid;
   border-radius: 0 0 10px 10px;
 }
 

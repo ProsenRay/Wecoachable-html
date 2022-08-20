@@ -154,10 +154,6 @@ body{
     }
 }
 //nab-tab area start
-.tab-area{
-    padding: 100px 0 0 60px;
-}
-
 .icon-box{
     position: relative;
 }
@@ -194,7 +190,7 @@ body{
        bottom: -46px;
     }
 .content-box{
-    padding : 50px 50px;
+    
 }
 
 .content-area{
@@ -202,10 +198,12 @@ body{
     height: 272px;
     padding: 32px;
     color: #012665;
+    
     &:hover{
         background-color: #FFFFFF;
-        border: 1px solid ;
         border-radius: 0 0 10px 10px;
+        transition: .5s;
+    
     }
     span{
         font-weight: 500;
@@ -320,7 +318,7 @@ body{
     color: #012665;
     &:hover{
         background-color: #FFFFFF;
-        border: 1px solid ;
+        //border: 1px solid ;
         border-radius: 0 0 10px 10px;
     }
     span{
